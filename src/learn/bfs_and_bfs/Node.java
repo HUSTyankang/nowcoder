@@ -1,7 +1,5 @@
 package learn.bfs_and_bfs;
-/*
- * 用于保存坐标
- */
+
 public class Node {
 	private int x;
 	private int y;
