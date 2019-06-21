@@ -51,6 +51,9 @@ public class Main {
 				}
 			}
 		}).start();
+		
+		//Lambda
+		new Thread(()->System.out.println(Thread.currentThread().getName() + "-->" )).start();
 	}
 
 }
